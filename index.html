@@ -2,9 +2,19 @@
 <html>
 <body>
 
-<button onclick="document.getElementById('myImage').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhUyhh1yir-GJ0dn3g2BcQUQc7Q6sfN7RHQ&usqp=CAU'">Hello Dibuuu, click here</button>
+<h2>What Can JavaScript Do?</h2>
 
-<img id="myImage" src="https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Blushed-Smiling-Emoji-Free-Download-IOS-Emojis.png" style="width:200px">
-<p>refresh to see it one more time...
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
 </body>
 </html>
+
